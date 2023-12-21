@@ -1,0 +1,26 @@
+{
+  "name": "UMKM ScanMaster",
+  "version": "1.0.0",
+  "description": "Cloud Computing",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "CH2-PR624",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.11.2",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "roboflow": "^0.2.0"
+  }
+}
